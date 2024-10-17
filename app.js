@@ -11,7 +11,6 @@ function updateBackgroundColor() {
     const verde = VerdeSlider.value;
     const azul = AzulSlider.value;
 
-
     function actualizarColor(rojo, verde, azul) {
         const colorRGB = `rgb(${rojo}, ${verde}, ${azul})`;
         document.body.style.backgroundColor = colorRGB;
@@ -26,5 +25,5 @@ RojoSlider.addEventListener('input', updateBackgroundColor);
 VerdeSlider.addEventListener('input', updateBackgroundColor);
 AzulSlider.addEventListener('input', updateBackgroundColor);
 
-// Color de fondo Inicial-
+// Color de fondo Inicial
 updateBackgroundColor();
