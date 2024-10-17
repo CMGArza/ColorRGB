@@ -26,5 +26,5 @@ RojoSlider.addEventListener('input', updateBackgroundColor);
 VerdeSlider.addEventListener('input', updateBackgroundColor);
 AzulSlider.addEventListener('input', updateBackgroundColor);
 
-// Color de fondo Inicial
+// Color de fondo Inicial-
 updateBackgroundColor();
